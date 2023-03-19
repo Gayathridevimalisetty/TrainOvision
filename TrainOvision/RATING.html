@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Train Rating Page</title>
+	<style>
+		body {
+			font-family: Arial, sans-serif;
+			background-color: #f5f5f5;
+		}
+		h1 {
+			text-align: center;
+			margin-top: 50px;
+			color: #333;
+		}
+		form {
+			max-width: 600px;
+			margin: 0 auto;
+			background-color: #fff;
+			padding: 20px;
+			border-radius: 5px;
+			box-shadow: 0 0 10px #ccc;
+		}
+		label {
+			display: block;
+			margin-bottom: 10px;
+			color: #333;
+			font-weight: bold;
+		}
+		input[type="radio"] {
+			margin-right: 10px;
+		}
+		input[type="submit"] {
+			background-color: #333;
+			color: #fff;
+			border: none;
+			padding: 10px 20px;
+			border-radius: 5px;
+			cursor: pointer;
+		}
+		input[type="submit"]:hover {
+			background-color: #444;
+		}
+	</style>
+</head>
+<body>
+	<h1>Rate Your Train Experience</h1>
+	<form>
+		<label>How would you rate the cleanliness of the train?</label>
+		<input type="radio" name="cleanliness" value="1">1
+		<input type="radio" name="cleanliness" value="2">2
+		<input type="radio" name="cleanliness" value="3">3
+		<input type="radio" name="cleanliness" value="4">4
+		<input type="radio" name="cleanliness" value="5">5
+		<br>
+		<label>How would you rate the comfort of the seats?</label>
+		<input type="radio" name="comfort" value="1">1
+		<input type="radio" name="comfort" value="2">2
+		<input type="radio" name="comfort" value="3">3
+		<input type="radio" name="comfort" value="4">4
+		<input type="radio" name="comfort" value="5">5
+		<br>
+		<label>How would you rate the on-time performance of the train?</label>
+		<input type="radio" name="on-time" value="1">1
+		<input type="radio" name="on-time" value="2">2
+		<input type="radio" name="on-time" value="3">3
+		<input type="radio" name="on-time" value="4">4
+		<input type="radio" name="on-time" value="5">5
+		<br>
+		<label>How would you rate the overall experience of the train?</label>
+		<input type="radio" name="overall" value="1">1
+		<input type="radio" name="overall" value="2">2
+		<input type="radio" name="overall" value="3">3
+		<input type="radio" name="overall" value="4">4
+		<input type="radio" name="overall" value="5">5
+		<br><br>
+		<input type="submit" value="Submit Rating">
+	</form>
+</body>
+</html>
